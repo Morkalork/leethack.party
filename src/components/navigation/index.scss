@@ -5,9 +5,10 @@ nav {
   ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
 
     li {
-      margin: 0.25rem;
+      margin: 0.35rem 0.2rem;
 
       a {
         border: 1px #fff solid;
@@ -15,6 +16,7 @@ nav {
         padding: 0.15rem 0.25rem;
         text-transform: lowercase;
         color: $light-grey;
+        white-space: nowrap;
         &.selected {
           border-color: $leethack-green;
         }

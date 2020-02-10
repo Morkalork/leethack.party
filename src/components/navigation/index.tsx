@@ -21,6 +21,9 @@ const pathInfo = [{
 }, {
     path: '/why',
     text: 'Why'
+}, {
+    path: '/whoop-whoop',
+    text: 'Whoop whoop'
 }];
 
 const getPaths = (currentPath: string) => pathInfo.map((info) => ({

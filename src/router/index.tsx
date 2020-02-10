@@ -5,6 +5,7 @@ import {When} from "../pages/when";
 import {Navigation} from "../components/navigation";
 import {Where} from "../pages/where";
 import {Why} from "../pages/why";
+import {WhoopWhoop} from "../pages/whoop-whoop";
 
 export const LeetRouter = () => {
     return <Router>
@@ -17,7 +18,10 @@ export const LeetRouter = () => {
                 <Where/>
             </Route>
             <Route path='/why'>
-                <Why />
+                <Why/>
+            </Route>
+            <Route path='/whoop-whoop'>
+                <WhoopWhoop/>
             </Route>
             <Route path='/'>
                 <What/>
