@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap');
+
+* {
+  /* Yeah yeah, so shoot me! */
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+html {
+  font-family: 'Cutive Mono', monospace;
+  background-color: #000;
+  color: #fefefe;
+  text-transform: lowercase;
+
+  div.App {
+    padding: 1rem;
+
+    div.content {
+      padding: 1rem;
+    }
+  }
+}

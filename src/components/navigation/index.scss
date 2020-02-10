@@ -1,0 +1,15 @@
+nav {
+  margin-bottom: 1rem;
+  ul {
+    list-style-type: none;
+    display: flex;
+
+    li {
+      border: 1px #fff solid;
+      padding: 0.15rem 0.25rem;
+      margin: 0.25rem;
+      border-radius: 0.25rem;
+
+    }
+  }
+}
