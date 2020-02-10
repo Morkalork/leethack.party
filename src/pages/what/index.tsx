@@ -1,4 +1,5 @@
 import React from 'react';
+import {Pictures} from "./pictures";
 
 export const What = () => {
     return <div className='what'>
@@ -10,6 +11,9 @@ export const What = () => {
         <section>
             <p>This game has been challenged by brave knights and knightesses wielding the sword of C#, the javelin of
                 JavaScript, the pike of Python and (rather unfortunately) the epa-tractor that is Excel/VBA.</p>
+        </section>
+        <section>
+            <Pictures/>
         </section>
     </div>
 }

@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+
+div.pictures {
+  figure {
+    max-width: 90%;
+    margin: 1rem auto;
+    padding: 1rem 0;
+    border-bottom: 1px $dark-grey solid;
+    img {
+      width: 100%;
+    }
+  }
+}
