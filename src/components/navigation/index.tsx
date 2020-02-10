@@ -11,10 +11,16 @@ interface Props {
 
 const pathInfo = [{
     path: '/',
-    text: 'Home'
+    text: 'What'
 }, {
     path: '/when',
-    text: 'When?'
+    text: 'When'
+}, {
+    path: '/where',
+    text: 'Where'
+}, {
+    path: '/why',
+    text: 'Why'
 }];
 
 const getPaths = (currentPath: string) => pathInfo.map((info) => ({

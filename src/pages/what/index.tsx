@@ -1,9 +1,7 @@
 import React from 'react';
 
-export const Home = () => {
-    return <div className='home'>
-        <header>
-        </header>
+export const What = () => {
+    return <div className='what'>
         <section>
             <p>LeetHack Party, a developer fest for people with nothing better to do!</p>
             <p>Challenge yourself with code, pick your own brain with puzzles and dive deep into a game developed

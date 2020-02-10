@@ -14,12 +14,17 @@ nav {
         border-radius: 0.25rem;
         padding: 0.15rem 0.25rem;
         text-transform: lowercase;
+        color: $light-grey;
         &.selected {
           border-color: $leethack-green;
         }
         &:hover, &:active {
           background-color: $light;
           color: $dark;
+          text-decoration: none;
+          &.selected {
+            background-color: $leethack-green;
+          }
         }
       }
     }

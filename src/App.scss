@@ -12,8 +12,11 @@ section {
 }
 
 a {
-  color: $light-grey;
+  color: $leethack-green;
   text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 html {
