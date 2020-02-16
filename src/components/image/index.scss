@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 figure {
   position: relative;
   img {
@@ -15,5 +17,18 @@ figure {
     left: 0;
     right: 0;
     font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  figure {
+    figcaption {
+      font-size: 0.75rem;
+      position: relative;
+      bottom: 0;
+      background-color: #000;
+      color: $light-grey;
+      padding: 0;
+    }
   }
 }

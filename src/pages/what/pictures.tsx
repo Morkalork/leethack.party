@@ -6,15 +6,15 @@ import {Image} from "../../components/image";
 
 const data = [{
     pic: StartRoom,
-    text: 'The Lobby, where the game begins...'
+    text: 'The Lobby, where the game begins... (you are by default assigned an arbitrary name)'
 }, {
     pic: SimpleRoom,
-    text: 'The Hallway, a room with a puzzling puzzle to solve...'
+    text: 'The Hallway, a room with a puzzling puzzle to solve. You have scanned some instructions into your P.I.N.X...'
 }]
 
 export const Pictures = () => (<div className='pictures'>
     <header>
-        <h3>Pictures</h3>
+        <h3>Explanatory pictures:</h3>
     </header>
-    {data.map((d, index) => <Image image={d.pic} caption={d.text}/>)}
+    {data.map((d, index) => <Image key={index} image={d.pic} caption={d.text}/>)}
 </div>)
