@@ -22,6 +22,9 @@ const pathInfo = [{
     path: '/why',
     text: 'Why'
 }, {
+    path: '/who',
+    text: 'Who'
+}, {
     path: '/whoop-whoop',
     text: 'Whoop whoop'
 }];

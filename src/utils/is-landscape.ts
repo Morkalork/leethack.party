@@ -1,0 +1,1 @@
+export const isLandscape = () => window.innerHeight > window.innerWidth;
