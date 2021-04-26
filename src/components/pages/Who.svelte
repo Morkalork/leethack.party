@@ -14,7 +14,7 @@
     <h2>The LeetHack Crew</h2>
     <Crew image="/images/otto.png" title="Otto Remse">
       The LeetHack Azure/Backend guru. A dot net architect who has been with the
-      project since day one. Enjoys growing chilis and FPS.
+      project since day one. Enjoys growing chilis, and FPS.
     </Crew>
     <Crew image="/images/brassman.png" title="Mikael Brassman">
       The resident designer and frontend developer. Map maker, special effects
@@ -22,8 +22,8 @@
       Switch lord.
     </Crew>
     <Crew image="/images/ferm.png" title="Magnus Ferm">
-      Frontend developer and general pellejöns. Responsible for a large portion
-      of rooms and has been with the project from the start. The teams biggest
+      Frontend developer and story writer. Responsible for a large portion of
+      the rooms and has been with the project from the start. The teams biggest
       <a
         href="http://www.mff.se"
         title="Oh we love Malmö FF, oh we love our team. Beneath heavenly blue skies, we become stronger and better for every day that passes..."

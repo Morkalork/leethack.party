@@ -38,4 +38,10 @@
     padding-top: 0.5rem;
     margin-top: 0.5rem;
   }
+
+  @media only screen and (max-width: 1200px) {
+    footer {
+      padding-bottom: 6rem;
+    }
+  }
 </style>

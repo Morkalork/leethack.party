@@ -95,8 +95,8 @@
   }
 
   button {
-    color: #33ff33;
-    background-color: #e36d00;
+    color: #e36d00;
+    background-color: transparent;
     border: none;
     border-radius: 4px;
     opacity: 0.9;
@@ -121,7 +121,7 @@
   input[type='number'],
   button {
     margin-top: 1rem;
-    font-size: clamp(1.25rem, calc(2 / 80 * 100vw), 2rem);
+    font-size: clamp(1rem, calc(1.5 / 80 * 100vw), 1.5rem);
     border-radius: 4px;
     padding: 0.25rem;
     border: 2px #e36d00 solid;
