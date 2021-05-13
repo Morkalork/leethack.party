@@ -8,9 +8,9 @@
       <h2>What is LeetHack?</h2>
       <p>
         LeetHack is a programming puzzle game, by developers, for developers!
-        Instead of finding keys behind plants and locating clues inside of old
-        television sets, you find keys in data, locate clues inside of source
-        code and API's.
+        It's a virtual breakout room-esque kind of game, but instead of finding
+        keys behind plants and locating clues inside of old television sets, you
+        find keys in data, locate clues inside of source code and API's.
       </p>
       <p>
         Most of us developers don't get to use our programming skills
